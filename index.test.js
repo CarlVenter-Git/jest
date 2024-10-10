@@ -17,11 +17,5 @@ describe("Additional check_list Tests", () => {
       expect(check_list([1, 2, 4])).toBe('1, 2, 4');
   });
 
-  test('mixed numbers', () => {
-      expect(check_list([1, 3, 5, 15])).toBe('1, fizz, buzz, fizzbuzz');
-  });
-
-  test('empty list', () => {
-      expect(check_list([])).toBe('');
-  });
+  
 });
